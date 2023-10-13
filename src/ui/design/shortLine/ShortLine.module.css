@@ -1,0 +1,26 @@
+.mainDiv {
+    width: 574px;
+    height: 28px;
+    padding: 14px 0px 14px 0px;
+    gap: 4px;
+}
+
+.line {
+    width: 574px;
+    height: 1px;
+    background-color: rgba(217, 217, 217, 1);
+    display: block;
+}
+
+.searchLineDiv {
+    width: 393px;
+    height: 21px;
+    padding: 12px 0px 9px 64px;
+    gap: 4px;
+}
+.searchLine{
+    width: 329px;
+    height: 1px;
+    background-color: rgba(217, 217, 217, 1);
+    display: block;
+}

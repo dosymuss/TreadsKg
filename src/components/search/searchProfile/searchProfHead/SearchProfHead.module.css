@@ -1,0 +1,117 @@
+
+.main{
+    display: flex;
+    width: 639px;
+    height: 150px;
+    justify-content: space-between;
+}
+.profImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.name{
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0;
+}
+.descDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.profDescDiv{
+    display: flex;
+    gap: 15px;
+}
+.nickName{
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+margin: 0;
+}
+.treadBtnDiv{
+    display: flex;
+    align-items: center;
+}
+.treadBtn{
+    width: 76px;
+height: 26px;
+padding: 4px 8px 4px 8px;
+border-radius: 100px;
+gap: 10px;
+background-color: rgba(238, 238, 238, 1);
+border: none;
+outline: none;
+}
+.followers{
+font-size: 17px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+color: rgba(153, 153, 153, 1);
+}
+.enterBtn{
+    width: 40px;
+height: 40px;
+padding: 8px;
+background-color: transparent;
+outline: none;
+border: none;
+cursor: pointer;
+}
+
+.modalTitle{
+font-size: 24px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.40799999237060547px;
+}
+.enterLink{
+    color: rgba(255, 69, 58, 1);
+font-size: 17px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.40799999237060547px;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 13px 10px 13px 10px;
+height: 61px;
+border: 1px 0px 1px 0px solid rgba(239, 239, 239, 1);
+gap: 10px;
+}
+.cancelBtn{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+height: 61px;
+padding: 13px 10px 13px 10px;
+border: 1px 0px 1px 0px solid rgba(239, 239, 239, 1);
+gap: 10px;
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.40799999237060547px;
+text-align: center;
+cursor: pointer;
+}
+.modalDiv{
+    width: 350px;
+}
+.followersBtn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+

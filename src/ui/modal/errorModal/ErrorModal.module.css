@@ -1,0 +1,65 @@
+.div {
+    width: 361px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 16px;
+    gap: 10px;
+    color: white;
+    background-color: rgb(195, 72, 72);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 30%;
+    transition: 1s;
+    opacity: 1;
+}
+
+.divClose {
+    width: 361px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 16px;
+    gap: 10px;
+    color: white;
+    background-color: rgba(83, 83, 83, 1);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    opacity: 0;
+}
+
+.div p {
+    margin: 0;
+}
+
+.descDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nick {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.23999999463558197px;
+    text-align: left;
+}
+
+
+.text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.07999999821186066px;
+    text-align: left;
+
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

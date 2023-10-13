@@ -1,0 +1,316 @@
+.modalCreate {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(20, 20, 20, 0.35);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.modalActiveCreate {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(20, 20, 20, 0.35);
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+.modalContentCreatePost {
+    padding: 0;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 3;
+}
+
+.imageDivDesc::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 48px;
+    left: 17px;
+    z-index: 0;
+    width: 2px;
+    height: calc(100% - 60px);
+    /* Исправлено: добавлен пробел между оператором "-" и числом 50px */
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.modalContentCreate {
+    padding: 0;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 223px;
+    position: relative;
+    z-index: 3;
+}
+
+.closeModalBtn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 3;
+}
+
+.closeModalDiv {
+    width: 666px;
+    max-height: 100vh;
+    min-height: 185px;
+    padding: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.canReplyBtn {
+    width: auto;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(153, 153, 153, 1);
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.modalContent {
+    position: absolute;
+    right: 0;
+    padding: 0;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 223px;
+    z-index: 10;
+    opacity: 0;
+}
+
+.modalContentActive {
+    position: absolute;
+    bottom: -180px;
+    right: -40px;
+    padding: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 223px;
+    z-index: -10;
+    opacity: 1;
+}
+
+.watchDiv {
+    width: 220px;
+    max-height: max-content;
+    min-height: 208px;
+    height: 208px;
+}
+
+.watchBtns {
+    width: 220px;
+    height: 52px;
+    padding: 16px 10px 16px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(20, 20, 20, 1);
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    z-index: -10px;
+}
+
+.createInp {
+    width: 500px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    resize: none;
+    /* Это предотвратит изменение размера textarea */
+    overflow: hidden;
+    /* Это предотвратит появление полосы прокрутки */
+
+}
+
+.closeModal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.closeModalError {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.createMain {
+    width: 626px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+    z-index: 3;
+}
+
+.createMain p {
+    margin: 0;
+    text-align: start;
+    color: rgba(153, 153, 153, 1);
+}
+
+.imageDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.imageDivDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.imageDivItem {
+    display: flex;
+    height: auto;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nickName {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black !important;
+}
+
+.postName {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 148, 246, 0.863) !important;
+}
+
+.postName:disabled {
+    color: rgba(0, 149, 246, 0.35) !important;
+}
+
+.plusDiv {
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+
+.startBtn {
+    width: auto;
+    padding: 0;
+    height: 19px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: rgba(153, 153, 153, 1);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: text;
+}
+
+.video {}
+
+.postDiv {
+    margin-top: 5px;
+    margin-left: 93%;
+}
+
+.postDivText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prewDiv {
+    position: relative;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(240, 255, 255, 0.597);
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.choiceImg {
+    border-radius: 8px;
+}

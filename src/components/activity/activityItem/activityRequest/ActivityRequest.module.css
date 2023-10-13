@@ -1,0 +1,121 @@
+.main {
+    width: 630px;
+    height: 41px;
+    padding: 0px 16px 0px 16px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.main p {
+    margin: 0;
+}
+
+.imgDiv {
+    width: 36px;
+    height: 39px;
+    padding: 3px 0px 0px 0px;
+    position: relative;
+}
+
+.miniIcon {
+    position: absolute;
+    bottom: -4px;
+    right: -5px;
+}
+
+.img {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+}
+
+.descDiv {
+    width: 320px;
+    height: 41px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.descText {
+    color: rgba(153, 153, 153, 1);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.016em;
+    text-align: left;
+
+}
+
+.nickDiv {
+    width: 113px;
+    height: 18px;
+    gap: 4px;
+    display: flex;
+}
+
+.nick {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.time {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.008em;
+    text-align: left;
+    color: rgba(153, 153, 153, 1);
+}
+
+.requestBtn {
+    width: auto;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 7px 30px 7px 30px
+}
+
+.requestBtnClick {
+    width: auto;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(217, 217, 217, 1);
+    padding: 7px 30px 7px 30px
+}
+
+.mainComment {
+    width: 630px;
+    height: 63px;
+    padding: 0px 16px 0px 16px;
+    gap: 16px;
+    display: flex;
+}
+
+.mainComment p {
+    margin: 0;
+}
+
+.comment {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.016em;
+    text-align: left;
+}

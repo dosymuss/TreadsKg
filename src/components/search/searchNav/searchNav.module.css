@@ -1,0 +1,53 @@
+.main{
+    width: 400px;
+height: 100vh;
+border-radius: 0px 20px 20px 0px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+background-color: white;
+box-shadow: 8px 0px 16px 0px rgba(0, 0, 0, 0.08);
+border-left:1px solid rgba(217, 217, 217, 1) ;
+max-height: 100vh; /* Устанавливаем максимальную высоту контейнера равной высоте viewport */
+overflow-y: auto; 
+overflow-x: hidden;
+}
+.main::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5; /* Цвет фона полосы прокрутки */
+  }
+  
+  /* Изменение стиля ползунка */
+ .main::-webkit-scrollbar-thumb {
+    background-color: rgba(153, 153, 153, 1); /* Цвет ползунка */
+    border-radius: 5px;
+     /* Скругление углов ползунка */
+  }
+  
+  /* Изменение стиля ползунка при наведении */
+  .main::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(153, 153, 153, 1); /* Цвет ползунка при наведении */
+  }
+
+
+.title{
+    padding-left: 20px;
+    width: 100%;
+font-size: 24px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.searchInp{
+    width: 360px;
+height: 44px;
+padding: 10px 16px 10px 16px;
+border-radius: 10px;
+gap: 10px;
+background-color: rgba(239, 239, 239, 1);
+outline: none;
+border: none;
+
+}

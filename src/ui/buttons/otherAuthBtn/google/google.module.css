@@ -1,0 +1,19 @@
+.button{
+    width: 437px;
+height: 56px;
+top: 645px;
+left: 853px;
+padding: 10px 119px 10px 24px;
+border-radius: 12px;
+border: 1px solid rgba(191, 194, 196, 1);
+gap: 106px;
+background-color: transparent;
+font-size: 17px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}

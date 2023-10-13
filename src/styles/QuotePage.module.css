@@ -1,0 +1,99 @@
+.contentDiv {
+    width: 638px;
+    height: 958px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navDiv {
+    width: 225px;
+
+}
+
+.invisDiv {
+    width: 350px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 638px;
+    height: 66px;
+    padding: 26px 562px 11px 12px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+
+.ava {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.createInp {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    resize: none;
+    /* Это предотвратит изменение размера textarea */
+    overflow: hidden;
+    /* Это предотвратит появление полосы прокрутки */
+    margin-bottom: 5px;
+}
+
+.nickName {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black !important;
+    margin: 0;
+}
+
+.quoteDiv {
+    display: flex;
+    gap: 10px;
+}
+
+.createDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.myAvaDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.line {
+    width: 2px;
+    height: 100%;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.limitDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.main{
+    width: 614px;
+height: 21px;
+padding: 12px 0px 9px 64px;
+gap: 4px;
+}
+.line{
+    width: 550px;
+    height: 1px;
+    background-color: rgba(217, 217, 217, 1);
+    display: block;
+}

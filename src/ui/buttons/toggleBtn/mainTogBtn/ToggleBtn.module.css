@@ -1,0 +1,38 @@
+.toggleDiv {
+    display: flex;
+    width: 638px;
+    height: 60px;
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+}
+
+.toggleBtn {
+    width: 319px;
+    height: 60px;
+    padding: 10px 50px 10px 50px;
+    gap: 10px;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.toggleBtnActive {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 319px;
+    height: 60px;
+    padding: 10px 50px 10px 50px;
+    gap: 10px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+}

@@ -1,0 +1,62 @@
+.searchFollowBtn {
+    width: 96px;
+    height: 33px;
+    padding: 6px 14px 7px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.activityFollowBtn {
+    width: 210px;
+    height: 34px;
+    padding: 7px 71px 7px 71px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    color: black;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.activityFollowClick {
+    width: 210px;
+    height: 34px;
+    padding: 7px 71px 7px 71px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(217, 217, 217, 1);
+}
+
+.searchFollowClick {
+    width: 96px;
+    height: 33px;
+    padding: 6px 14px 7px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(217, 217, 217, 1);
+}
+
+.hide{
+    opacity: 0;
+}

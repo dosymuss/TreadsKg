@@ -1,0 +1,70 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navDiv {
+    width: 225px;
+}
+
+.followDiv {
+    width: 350px;
+}
+
+.activDiv {
+    width: 638px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.activTitle {
+    width: 638px;
+    height: 66px;
+    padding: 26px 562px 11px 12px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+.switchDiv{
+    width: 268px;
+height: 40px;
+gap: 8px;
+display: flex;
+align-items: center;
+
+}
+
+.switchBtn{
+    width: 130px;
+height: 40px;
+padding: 10px 19px 10px 18px;
+border-radius: 8px;
+border: 1px solid rgba(217, 217, 217, 1);
+font-size: 17px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+.switchBtnActive{
+    width: 130px;
+height: 40px;
+padding: 10px 19px 10px 18px;
+border-radius: 8px;
+background-color: black;
+color: white;
+font-size: 17px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.activeAccount{
+    width: 630px;
+padding: 6px 0px 0px 0px;
+}

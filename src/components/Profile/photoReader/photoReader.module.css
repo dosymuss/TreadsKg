@@ -1,0 +1,44 @@
+.btn {
+    width: 418px;
+    height: 51px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px;
+    gap: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.40799999237060547px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.deleteBtn {
+    width: 418px;
+    height: 51px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px;
+    gap: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.40799999237060547px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgba(255, 69, 58, 1);
+    cursor: pointer;
+}

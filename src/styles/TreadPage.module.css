@@ -1,0 +1,43 @@
+.navDiv{
+    width: 225px;
+}
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.followDiv {
+    width: 350px;
+}
+.Link {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.4000000059604645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+}
+.linkDiv {
+    width: 638px;
+    height: 66px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.treadsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 638px;
+    align-items: flex-end;
+}
+.treadsAndRep{
+    display: flex;
+    flex-direction: column;
+    width: 638px;
+    align-items: flex-end;
+}

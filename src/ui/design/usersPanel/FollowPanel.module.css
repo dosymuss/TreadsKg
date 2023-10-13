@@ -1,0 +1,123 @@
+.main {
+    width: 256px;
+    height: 346px;
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 126px;
+
+}
+
+.descDiv {
+    width: 121px;
+    height: 40px;
+    gap: 12px;
+}
+
+.myDiv {
+    width: 256px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageDivDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imageDivItem {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    gap: 10px;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.nickname {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;    
+    margin: 0;
+    color: rgba(20, 20, 20, 1);
+}
+
+.switchBtn {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(62, 149, 239, 1);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navPan {
+    width: 256px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navPanText {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(20, 20, 20, 1);
+    margin: 0;
+}
+
+.navPanBtn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.activDiv{
+    width: 256px;
+    height: 283px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.follDiv {
+    width: 253px;
+    height: 250px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.emptyText{
+    color: rgba(153, 153, 153, 1);
+    
+}

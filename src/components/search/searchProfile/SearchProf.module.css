@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+}
+.navDiv{
+    width: 225px;
+}
+
+.profDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.infoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 639px;
+}

@@ -1,0 +1,15 @@
+.passMainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 437px;
+    gap: 25px;
+}
+.passInpDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.errorText{
+    color: red;
+    margin: 0;
+}

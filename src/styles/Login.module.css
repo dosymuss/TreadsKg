@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+}
+
+.formDiv{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(20, 20, 20, 1);
+    text-decoration: none;
+}
+.otherDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.linkLabel{
+    margin-top: 25px;
+    display: block;
+    text-align: start;
+}

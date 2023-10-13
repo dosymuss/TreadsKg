@@ -1,0 +1,50 @@
+.main {
+    width: 630px;
+    height: 40px;
+    padding: 0px 16px 0px 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.approveBtn {
+    width: auto;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.approveBtnClick {
+    width: auto;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(217, 217, 217, 1);
+}

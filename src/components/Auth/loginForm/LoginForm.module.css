@@ -1,0 +1,112 @@
+.linkDiv {
+    width: 167px;
+    height: 44px;
+    top: 441px;
+    left: 853px;
+    padding: 10px 0px 10px 0px;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.errorText {
+    color: red;
+}
+
+.loginDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 437px;
+}
+
+.emailModal {
+    padding-top:20px  ;
+    width: 350px;
+    height: 250px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ModalText {
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.ModalDesc {
+    margin: 0;
+    width: 198px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(140, 140, 140, 1);
+}
+
+.emailModalClose {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid rgba(217, 217, 217, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.passModal{
+    padding-top:20px  ;
+    width: 349.9999694824219px;
+height: 324px;
+border-radius: 19.308271408081055px;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.passModalLink{
+    width: 100%;
+ height: 56px;
+ text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-top: 1px solid rgba(217, 217, 217, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 149, 246, 1);
+    
+}
+.passModalBtnDiv{
+    width: 100%;
+}

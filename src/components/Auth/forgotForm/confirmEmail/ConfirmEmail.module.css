@@ -1,0 +1,12 @@
+
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 437px;
+}
+.errorText{
+    color: red;
+    margin: 0;
+}

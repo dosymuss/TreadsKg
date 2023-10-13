@@ -1,0 +1,11 @@
+
+.createDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 437px;
+}
+.errorText{
+    margin: 0;
+    color: red;
+}

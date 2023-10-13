@@ -1,0 +1,10 @@
+ .main{
+    display: flex;
+ }
+ .formDiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }

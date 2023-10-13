@@ -1,0 +1,28 @@
+.main {
+    width: 639px;
+    height: 28px;
+    padding: 14px 0px 14px 0px;
+    gap: 4px;
+}
+.mainReply{
+    width: 639px;
+    height: 28px;
+    padding: 14px 0px 14px 0px;
+    gap: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.line {
+    width: 639px;
+    height: 1px;
+background-color: rgba(217, 217, 217, 1);
+display: block;
+}
+.lineReply{
+    width: 574px;
+    height: 1px;
+    background-color: rgba(217, 217, 217, 1);
+    display: block;
+}

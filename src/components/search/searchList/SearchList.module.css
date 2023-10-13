@@ -1,0 +1,56 @@
+.main{
+    width: 393px;
+height: 72px;
+padding: 3px 16px 0px 16px;
+gap: 16px;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+}
+.main p{
+    margin: 0;
+}
+.ava{
+    width: 36px;
+height: 39px;
+border-radius: 50%;
+padding: 3px 0px 0px 0px;
+}
+.descDiv{
+    width: 197px;
+height: 72px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+.follow{
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.016em;
+text-align: left;
+}
+.nickDiv{
+    width: 197px;
+height: 42px;
+gap: 2px;
+text-align: start;
+}
+.nickname{
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+text-decoration: none;
+color: black;
+}
+.job{
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.016em;
+text-align: left;
+color: rgba(153, 153, 153, 1);
+}

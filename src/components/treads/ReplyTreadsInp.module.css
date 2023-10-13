@@ -1,0 +1,31 @@
+.main{
+    width: 555px;
+height: 48px;
+padding: 10px;
+border-radius: 28px;
+gap: 8px;
+background-color: rgba(238, 238, 238, 1);
+display: flex;
+align-items: center;
+margin: 10px 0 10px 0;
+}
+.ava{
+    width: 28px;
+height: 28px;
+border-radius: 50%;
+}
+.inp{
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+width: 100%;
+border: none;
+outline: none;
+background-color: transparent;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}

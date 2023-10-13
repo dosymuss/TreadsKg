@@ -1,0 +1,27 @@
+.followBtn {
+    width: 210px;
+    height: 34px;
+    padding: 7px 71px 7px 71px;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.followBtnActive {
+    width: 210px;
+    height: 34px;
+    padding: 7px 71px 7px 71px;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    color: rgba(153, 153, 153, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}

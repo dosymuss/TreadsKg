@@ -1,0 +1,26 @@
+.orDecor {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.orDecor::before {
+    content: "";
+    display: block;
+    width: 186px;
+    height: 1px;
+    background-color: rgba(191, 194, 196, 1);
+}
+.orDecor::after {
+    content: "";
+    display: block;
+    width: 186px;
+    height: 1px;
+    background-color: rgba(191, 194, 196, 1);
+}

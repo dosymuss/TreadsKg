@@ -1,0 +1,26 @@
+.main{
+    position: relative;
+}
+
+.navMain {
+    width: 225px;
+    height: 100vh;
+    padding: 40px 0px 40px 25px;
+    border-right: 1px solid rgba(217, 217, 217, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.logoDiv{
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.searchDiv{
+    position: absolute;
+    left: 80px;
+    top: 0;
+    z-index: 40;
+}

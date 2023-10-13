@@ -1,0 +1,243 @@
+.main {
+    width: 639px;
+    height: auto;
+    padding: 0px 12px 0px 12px;
+    gap: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.emptySpace {
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+
+.divFlexEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imgBtn {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.plusIcon {
+    position: absolute;
+    bottom: -4px;
+    right: -6px;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nick {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.time {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.008em;
+    text-align: left;
+    color: rgba(153, 153, 153, 1);
+    margin: 0;
+}
+
+.nickDiv {
+    display: flex;
+    width: 575px;
+    height: 18px;
+    padding: 0px 8px 0px 0px;
+    justify-content: space-between;
+}
+
+.message {
+    display: block;
+    width: 550px;
+    height: auto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.016em;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.likeText {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.016em;
+    text-align: left;
+    margin: 0;
+    color: rgba(153, 153, 153, 1);
+}
+
+.btnDiv {
+    width: 128px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn {
+    width: 20px;
+    height: 20px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descDiv {
+    width: 575px;
+    height: auto;
+    gap: 10px;
+}
+
+
+.btnAndLikes {
+    display: flex;
+    width: 128px;
+    height: 57px;
+    padding: 5px 0px 0px 0px;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.likesDiv {
+    width: 140px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likeTextOnly {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.016em;
+    text-align: left;
+    margin: 0;
+    color: rgba(153, 153, 153, 1);
+}
+
+.likeTextOnly::before {
+    content: "-";
+    padding-right: 10px;
+    /* display: inline-block; */
+    width: 1px;
+    height: 1px;
+}
+
+
+
+.repostModal {
+    width: 450px;
+    height: 129px;
+    padding: 21px 16px 20px 16px;
+    border-radius: 12px;
+}
+
+.removeBtn {
+    width: 418px;
+    height: 44px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.40799999237060547px;
+    color: red;
+    cursor: pointer;
+
+}
+
+.quoteBtn {
+    width: 418px;
+    height: 44px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.40799999237060547px;
+    color: black;
+    cursor: pointer;
+
+}
+.imgDiv{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bigImg {
+    width: 567px;
+    /* height: 316px; */
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.repostBtn {
+    width: 418px;
+    height: 44px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.40799999237060547px;
+    color: black;
+    cursor: pointer;
+}
+
+.video {
+    width: 100px;
+    height: 50px;
+}

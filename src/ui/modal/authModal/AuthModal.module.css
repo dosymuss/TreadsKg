@@ -1,0 +1,39 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(20, 20, 20, 0.35);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.modalActive {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(20, 20, 20, 0.35);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+    opacity: 1;
+    transition: 0.5s;
+    z-index: 20;
+
+
+}
+
+.modalContent {
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 21;
+}
